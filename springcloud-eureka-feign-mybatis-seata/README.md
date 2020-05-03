@@ -144,7 +144,7 @@ registry {
     cluster = "default"
   }
   eureka {
-    serviceUrl = "http://localhost:8761/eureka"  修改这里
+    serviceUrl = "http://localhost:18080/eureka"  修改这里
     application = "default"  
     weight = "1"
   }
@@ -229,7 +229,7 @@ registry {
     cluster = "default"
   }
   eureka {
-    serviceUrl = "http://localhost:8761/eureka"  修改这里
+    serviceUrl = "http://localhost:18080/eureka"  修改这里
     application = "default"
     weight = "1"
   }
@@ -386,7 +386,7 @@ registry {
   type = "eureka"
 ......
   eureka {
-    serviceUrl = "http://192.168.xx.xx:8761/eureka"  //两台tcc相同,注册中心的地址
+    serviceUrl = "http://192.168.xx.xx:18080/eureka"  //两台tcc相同,注册中心的地址
     application = "default" //两台tc相同
     weight = "1"  //权重，截至0.9版本，暂时不支持此参数
   }
